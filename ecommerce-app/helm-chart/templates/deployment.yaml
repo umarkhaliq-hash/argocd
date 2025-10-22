@@ -32,7 +32,7 @@ spec:
           value: "1"
         - name: PS_DOMAIN
           #value: "localhost:3000"
-          value: "aed7779ccfd3540c398ebccb04162fb1-1552371232.us-west-2.elb.amazonaws.com"
+          value: "{{ .Values.prestashop.domain }}"
         - name: ADMIN_MAIL
           value: "admin@prestashop.com"
         - name: ADMIN_PASSWD
