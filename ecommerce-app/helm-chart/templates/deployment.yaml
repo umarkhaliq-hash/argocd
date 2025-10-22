@@ -56,7 +56,7 @@ spec:
   ports:
   - port: {{ .Values.service.port }}
     targetPort: {{ .Values.prestashop.port }}
-    nodePort: 30090
+   # nodePort: 30090
 ---
 apiVersion: apps/v1
 kind: Deployment

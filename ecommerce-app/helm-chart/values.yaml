@@ -26,7 +26,8 @@ mysql:
       cpu: "200m"
 
 service:
-  type: NodePort
+ # type: NodePort
+  type: LoadBalancer
   port: 80
 
 ingress:
